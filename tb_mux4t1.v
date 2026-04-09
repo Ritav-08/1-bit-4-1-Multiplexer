@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Author: Ritik
+// Author: Ritav
 //
 // Create Date: 08.04.2026 13:42:40
 // Design Name: 1-bit 4:1 MUX testbench
