@@ -1,6 +1,6 @@
 # 1-bit-4-1-Multiplexer
 4:1 Mux (mux4t1) using 2:1 Mux (mux2t1), structural representation, enable port.
-<br>DESIGN: \n
+<br>DESIGN:
 <br>//////////////////////////////////////////////////////////////////////////////////
 <br>//
 <br>// Create Date: 08.04.2026 13:42:20
@@ -15,12 +15,12 @@
 <br>// Revision:
 <br>//     Revision 0.01 - File Created
 <br>//     Revision 0.02 - fixed unknown behaviour encountered during simulation (at enable=0, any input undefined)
-\n
+<br>
 <br>// Additional Comments:
 <br>// I[0]-I[2] as mux-1 inputs, I[1]-I[3] as mux-2 inputs. This order is chosen so that: sel=00 -> I[0], sel=01 -> I[1], sel=10 -> I[2], sel=11 -> I[3].
 <br>// When Enable is 0, Output is: X when any input is undefined, 0 when all inputs are defined
 <br>//////////////////////////////////////////////////////////////////////////////////
-\n
+<br>
 <br>TESTBENCH:
 <br>//////////////////////////////////////////////////////////////////////////////////
 <br>// Author: Ritav
