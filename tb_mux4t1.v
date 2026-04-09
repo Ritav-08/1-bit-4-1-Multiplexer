@@ -1,23 +1,8 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Author: Ritav
-//
-// Create Date: 08.04.2026 13:42:40
-// Design Name: 1-bit 4:1 MUX testbench
-// Module Name: tb_mux4t1
-// Project Name: MUX Implementation
-// Target Devices: Simulation Only
-// Tool Versions: Vivado 2025.2
-// Description: 
-//     Testbench for 1-bit 4:1 multiplexer (mux4t1), verifies functionality with all input combinations and enable states.
-// Dependencies: 
-//     Modules: mux4t1, mux2t1
-// Revision:
-//     Revision 0.01 - File Created
-// Additional Comments:
-//     Simulation includes undefined inputs to test X-propagation and enable behavior.
-//////////////////////////////////////////////////////////////////////////////////
 
+//Checkout Readme for more details.
+
+//testbench for 1-bit 4:1 MUX
 module tb_mux4t1();
 reg en;
 reg [3:0]in;
